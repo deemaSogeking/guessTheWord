@@ -5,11 +5,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 div {
   text-align: center;
   margin-top: 25%;
   margin-left: 2%;
 }
+
 button {
   font-family: 'Pixelify Sans', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -22,12 +24,14 @@ button {
   color: rgb(239, 189, 113);
   transition: all 0.1s ease;
 }
+
 button:hover {
   background-color: rgb(158, 121, 193);
   color: rgb(74, 45, 1);
-  box-shadow: 0px 20px 9px rgba(0, 0, 0, 0.44);
+  box-shadow: 0 20px 9px rgba(0, 0, 0, 0.44);
   transform: scale(101%);
 }
+
 button:active {
   box-shadow: none;
 }
@@ -36,6 +40,7 @@ button:active {
   body {
     background-color: rgb(64, 23, 101);
   }
+
   button {
     font-size: 10px;
     padding: 5px 5px;
